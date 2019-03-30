@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(127, 14, 146);
+    transition: 2s;
+}
+#home div.card{
+    background: #e74c3c;
+}
+#home div.title{
+    background: #ffffff;
+}
+#home .players{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 1px 1px #333;
+}
+
+#game #stopwatch{
+    font-size: 12rem;
+    color:#333333;
+    background: #ffffff;
+}
+
+#game #btnStart,
+#game #btnStop{    
+    font-size: 10rem;    
+}
+
+#game #btnStart:not([disabled]) {
+-webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #42A5F5; -webkit-box-shadow: 0 0 3px #42A5F5; }
+  50% { background-color: #1976D2; -webkit-box-shadow: 0 0 40px #1976D2; }
+  100% { background-color: #42A5F5; -webkit-box-shadow: 0 0 3px #42A5F5; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #42A5F5; -moz-box-shadow: 0 0 3px #42A5F5; }
+  50% { background-color: #1976D2; -moz-box-shadow: 0 0 40px #1976D2; }
+  100% { background-color: #42A5F5; -moz-box-shadow: 0 0 3px #42A5F5; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #42A5F5; box-shadow: 0 0 3px #42A5F5; }
+  50% { background-color: #1976D2; box-shadow: 0 0 40px #1976D2; }
+  100% { background-color: #42A5F5; box-shadow: 0 0 3px #42A5F5; }
+}
+
+@keyframes glowing {
+  0% { background-color: #42A5F5; box-shadow: 0 0 3px #42A5F5; }
+  50% { background-color: #1976D2; box-shadow: 0 0 40px #1976D2; }
+  100% { background-color: #42A5F5; box-shadow: 0 0 3px #42A5F5; }
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
+  
+  div.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
